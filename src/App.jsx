@@ -11,7 +11,8 @@ import JutsuCard from '../Practice/Component/LevelOne'
 import NinjaList from '../Practice/Component/LevelThree'
 import Weapons from '../Concept/3.Props'
 import Greeting from '../Concept/3.Props'
-import SummonBeast from '../Practice/Props/MediumProps'
+import SummonBeastExport from '../Practice/Props/MediumProps'
+import DisplayEvent from '../Concept/4.Event'
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
 {/* <NinjaList/> */}
 {/* <Greeting name="Madara" title="Ghost of Uchiha"/> */}
 {/* <Weapons/> */}
-<SummonBeast name= "Gamabunta" summoner= "Jiraiya" powerLevel = "800" types = "water" isLegendary = "Yes"/>
+{/* <SummonBeastExport/> */}
+<DisplayEvent/>
     </>
   )
 }

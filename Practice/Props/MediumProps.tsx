@@ -32,4 +32,70 @@ function SummonBeast({ name, summoner, powerLevel, types, isLegendary }) {
   );
 }
 
-export default SummonBeast;
+
+
+function SummonBeastExport(){
+
+return(
+    <div>
+        <SummonBeast 
+  name="Gamabunta" 
+  summoner="Jiraiya" 
+  powerLevel="800" 
+  types="Water" 
+  isLegendary={true} 
+/>
+
+<SummonBeast 
+  name="Manda" 
+  summoner="Orochimaru" 
+  powerLevel="950" 
+  types="Earth / Snake" 
+  isLegendary={false} 
+/>
+
+<SummonBeast 
+  name="Katsuyu" 
+  summoner="Tsunade" 
+  powerLevel="870" 
+  types="Slime / Healing" 
+  isLegendary={true} 
+/>
+
+<SummonBeast 
+  name="Enma" 
+  summoner="Hiruzen Sarutobi" 
+  powerLevel="780" 
+  types="Monkey / Weapon" 
+  isLegendary={false} 
+/>
+
+<SummonBeast 
+  name="Kurama (Nine Tails)" 
+  summoner="Naruto Uzumaki" 
+  powerLevel="1000" 
+  types="Chakra Beast" 
+  isLegendary={true} 
+/>
+
+<SummonBeast 
+  name="Aoda" 
+  summoner="Sasuke Uchiha" 
+  powerLevel="860" 
+  types="Snake" 
+  isLegendary={false} 
+/>
+
+<SummonBeast 
+  name="Shukaku (One Tail)" 
+  summoner="Gaara" 
+  powerLevel="910" 
+  types="Sand" 
+  isLegendary={true} 
+/>
+
+    </div>
+);
+
+}
+export default SummonBeastExport;
