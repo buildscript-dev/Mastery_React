@@ -18,6 +18,7 @@ import ListRendering from '../Concept/6.List'
 import FavoriteColor from '../Concept/Hooks/7.Hook'
 import ChakraCounter from '../Concept/Hooks/8.useState'
 import ChakraTracker from '../Practice/UseState/EasyLevel'
+import ChakraColor from '../Practice/UseState/MediumLevel'
 
 function App() {
 
@@ -37,7 +38,8 @@ function App() {
 {/* <DisplayName/> */}
 {/* <ListRendering/> */}
 {/* <FavoriteColor/> */}
-<ChakraTracker/>
+{/* <ChakraTracker/> */}
+<ChakraColor/>
 
     </>
   )
