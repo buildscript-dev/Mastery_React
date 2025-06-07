@@ -19,6 +19,7 @@ import FavoriteColor from '../Concept/Hooks/7.Hook'
 import ChakraCounter from '../Concept/Hooks/8.useState'
 import ChakraTracker from '../Practice/UseState/EasyLevel'
 import ChakraColor from '../Practice/UseState/MediumLevel'
+import Timer from '../Concept/Hooks/9.useEffect'
 
 function App() {
 
@@ -39,8 +40,8 @@ function App() {
 {/* <ListRendering/> */}
 {/* <FavoriteColor/> */}
 {/* <ChakraTracker/> */}
-<ChakraColor/>
-
+{/* <ChakraColor/> */}
+<Timer/>
     </>
   )
 }
