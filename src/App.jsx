@@ -13,6 +13,7 @@ import Weapons from '../Concept/3.Props'
 import Greeting from '../Concept/3.Props'
 import SummonBeastExport from '../Practice/Props/MediumProps'
 import DisplayEvent from '../Concept/4.Event'
+import DisplayName from '../Concept/5.ConditionalRendering'
 
 function App() {
 
@@ -28,7 +29,8 @@ function App() {
 {/* <Greeting name="Madara" title="Ghost of Uchiha"/> */}
 {/* <Weapons/> */}
 {/* <SummonBeastExport/> */}
-<DisplayEvent/>
+{/* <DisplayEvent/> */}
+<DisplayName/>
     </>
   )
 }
