@@ -7,6 +7,9 @@ import { useState } from "react";
 
 function ChakraCounter(){
   const [chakra, setChakra] = useState(100);
+  //useState accepts an initial state and returns two values:
+// The current state.
+// A function that updates the state.
 
   return (
     <div>

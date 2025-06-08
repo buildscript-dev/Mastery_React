@@ -20,6 +20,8 @@ import ChakraCounter from '../Concept/Hooks/8.useState'
 import ChakraTracker from '../Practice/UseState/EasyLevel'
 import ChakraColor from '../Practice/UseState/MediumLevel'
 import Timer from '../Concept/Hooks/9.useEffect'
+import ChakraCountDown from '../Practice/UseEffect/EasyLevel'
+import AutoTimer from '../Practice/UseEffect/MediumLevel'
 
 function App() {
 
@@ -41,7 +43,10 @@ function App() {
 {/* <FavoriteColor/> */}
 {/* <ChakraTracker/> */}
 {/* <ChakraColor/> */}
-<Timer/>
+{/* <Timer/> */}
+<AutoTimer/>
+{/* <ChakraCountDown/> */}
+
     </>
   )
 }

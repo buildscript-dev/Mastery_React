@@ -13,9 +13,9 @@ function Timer() {
 
     const timer = setTimeout(() => {
       setCount((prev) => prev - 1);
-    }, 500);
+    },500);
 
-    return () => clearTimeout(timer); // cleanup
+    // return () => clearTimeout(timer); // cleanup
   }, [count]); // runs when count changes
 
   return (
