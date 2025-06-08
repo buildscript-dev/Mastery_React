@@ -15,14 +15,15 @@ import SummonBeastExport from '../Practice/Props/MediumProps'
 import DisplayEvent from '../Concept/4.Event'
 import DisplayName from '../Concept/5.ConditionalRendering'
 import ListRendering from '../Concept/6.List'
-import FavoriteColor from '../Concept/Hooks/7.Hook'
+import FavoriteColor from '../Concept/Hooks/9.Hook'
 import ChakraCounter from '../Concept/Hooks/8.useState'
 import ChakraTracker from '../Practice/UseState/EasyLevel'
 import ChakraColor from '../Practice/UseState/MediumLevel'
-import Timer from '../Concept/Hooks/9.useEffect'
+import Timer from '../Concept/Hooks/11.useEffect'
 import ChakraCountDown from '../Practice/UseEffect/EasyLevel'
 import AutoTimer from '../Practice/UseEffect/MediumLevel'
 import Component1 from '../Concept/Hooks/10.useContext'
+import Refresh from '../Concept/Hooks/13.useRef'
 
 function App() {
 
@@ -48,8 +49,7 @@ function App() {
 {/* <AutoTimer/> */}
 {/* <ChakraCountDown/> */}
 {/* <Component1/> */}
-<Refresh/>
-
+{/* <Refresh/> */}
     </>
   )
 }
