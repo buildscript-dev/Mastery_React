@@ -15,7 +15,7 @@ function Timer() {
       setCount((prev) => prev - 1);
     },500);
 
-    // return () => clearTimeout(timer); // cleanup
+    return () => clearTimeout(timer); // cleanup
   }, [count]); // runs when count changes
 
   return (
